@@ -1,0 +1,130 @@
+body{
+    background-color:#192655;
+    font-family: sans-serif;
+
+}
+ul {
+
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    background-color: #192655;
+    text-align: center;
+}
+  
+li {
+    float: center;
+    display: inline-block;
+}
+  
+li a {
+    display: block;
+    color: #F3F0CA;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 5px;
+}
+  
+
+li a:hover {
+    background-color: #214670;
+}
+#menu{
+    margin: auto;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    border-radius: 50px;
+}
+.titel{
+    font-size: 100px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: impact;
+    text-align: center;
+    color: #F3F0CA;
+}
+.text{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    color: #F3F0CA;
+    background-color: #214670;
+    border-radius: 10px;
+    width: 85%;
+}
+.tabeldiv{
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    color: #F3F0CA;
+    background-color: #214670;
+    border-radius: 10px;
+    width: 87.5%;
+}
+.tabel{
+    display: inline-block;
+}
+
+.tabel, td, tr{
+    border: 2px solid #F3F0CA;
+    background-color: #F3F0CA;
+    border-radius: 10px;
+}
+td{
+    width: 25%;
+    height: 25%;
+}
+.grote{
+    width: 50%;
+    height: 50%;
+}
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    font-family: Haettenschweiler;
+    color: #F3F0CA;
+    background-color: #214670;
+    border-radius: 10px;
+    width: 85%;
+}
+html {
+    scroll-behavior:smooth;
+}
+.badges{
+    width: 100%;
+    height: 100%;
+}
+.text2 {
+    margin: auto;
+
+    font-family: Haettenschweiler;
+    background-color: #214670;
+    height: 10%;
+}
+
